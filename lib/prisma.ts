@@ -1,1 +1,3 @@
-//continue at 37:33
+import {PrismaClient} from "@prisma/client"
+
+export const prisma = new PrismaClient();
